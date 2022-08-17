@@ -42,7 +42,6 @@ then
 elif [ $mm -eq 2 ]
 then
 	ly=`leapyr $yy`
-	echo "$ly"
 	if [ $ly -eq 1 -a $dd -le 29 ]
 	then
 		echo "$dd/$mm/$yy is a valid date"
