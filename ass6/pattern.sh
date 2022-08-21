@@ -20,13 +20,15 @@ done
 for((i=2;i<=n;i++))
 do
 	echo
-	for((j=1;j<=i-1;j++))
+	for((j=1;j<=2\*n-1;j++))
 	do
-		echo -n -e "\t"
-	done
-	for((j=1;j<=2\*(n-i)+1;j++))
-	do
-		echo -n -e "*\t"
+		if [ $j -ge $i -a $j -le `expr 2 \* $n - $i` ]
+		then
+			echo -n -e "*\t"
+		else
+			echo -n -e "\t"
+		fi
 	done
 done
+
 echo
