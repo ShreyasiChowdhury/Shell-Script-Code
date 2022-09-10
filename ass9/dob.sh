@@ -1,5 +1,5 @@
 month=(31 28 31 30 31 30 31 31 30 31 30 31)
-echo "Enter your date of birth:"
+echo -n "Enter your date of birth: "
 IFS="/"
 read dob
 set $dob
@@ -9,6 +9,7 @@ y=$3
 dd=`date +%d`
 mm=`date +%m`
 yy=`date +%Y`
+echo "Today is: $dd/$mm/$yy"
 if [ $d -gt $dd ]
 then
 	dd=`expr $dd + ${month[m-1]}`
