@@ -22,4 +22,4 @@ fi
 agd=`expr $dd - $d`
 agm=`expr $mm - $m`
 agy=`expr $yy - $y`
-echo "$agy years $agm months $agd days"
+echo -e "Your age is:\n$agy years $agm months $agd days"
