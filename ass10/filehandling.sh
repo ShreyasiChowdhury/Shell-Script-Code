@@ -26,3 +26,4 @@ then
 	done
 fi
 # sh filehandling.sh abc.txt
+# cat xyz.txt
