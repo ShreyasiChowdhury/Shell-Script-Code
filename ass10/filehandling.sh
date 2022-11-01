@@ -27,3 +27,5 @@ then
 fi
 # sh filehandling.sh abc.txt
 # cat xyz.txt
+# head -2 > res.txt
+# tail -2 > res.txt
