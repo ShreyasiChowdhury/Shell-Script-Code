@@ -25,4 +25,5 @@ then
 		esac
 	done
 fi
+cat xyz.txt
 # sh <shell file> <input file>

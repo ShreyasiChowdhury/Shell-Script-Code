@@ -1,0 +1,8 @@
+Day	Temperature	Weather
+Sunday	30	Hot
+Monday	28	Hot
+Tuesday	35	Very Hot
+Wednesday	28	Hot
+Thursday	27	Hot
+Friday	25	Hot
+Saturday	24	Cold
